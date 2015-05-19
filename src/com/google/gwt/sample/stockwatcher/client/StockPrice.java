@@ -9,6 +9,7 @@ public class StockPrice implements Serializable {
 	private double price;
 	private double change;
 
+	// This is a constructor
 	public StockPrice() {
 	}
 
