@@ -8,8 +8,12 @@ public class StockPrice implements Serializable {
 	//Fields for StockPrices
 	private static final long serialVersionUID = 1L;
 	private String symbol;
-	private String iErasedLOL;
-	private String weShouldSleep;
+<<<<<<< HEAD
+	private String hopeThisFails;
+	private String iReallyHopeThisFails;
+=======
+	private String LOL;
+>>>>>>> 02dbdd17ffe81f0b0287085d5d5ed895df6401b9
 	private double price;
 	private double change;
 	private double newField;
@@ -48,6 +52,7 @@ public class StockPrice implements Serializable {
 	public void setSymbol(String symbol) {
 		System.out.println("Hello");
 		this.symbol = symbol;
+		this.newField = 100;
 	}
 
 	public void setChange(double change) {
