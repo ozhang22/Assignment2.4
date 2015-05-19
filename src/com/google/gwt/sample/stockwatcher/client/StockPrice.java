@@ -5,7 +5,7 @@ import java.io.Serializable;
 public class StockPrice implements Serializable {
 
 	
-	//Fields for StockPrice
+	//Fields for StockPrices
 	private static final long serialVersionUID = 1L;
 	private String symbol;
 	private double price;
