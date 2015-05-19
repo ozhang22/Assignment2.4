@@ -21,12 +21,12 @@ public class StockPrice implements Serializable {
 		this.change = change;
 	}
 
-	public String getSymbol() {
-		return this.symbol;
-	}
-
 	public double getPrice() {
 		return this.price;
+	}
+
+	public String getSymbol() {
+		return this.symbol;
 	}
 
 	public double getChange() {
@@ -37,12 +37,13 @@ public class StockPrice implements Serializable {
 		return 100.0 * this.change / this.price;
 	}
 
-	public void setSymbol(String symbol) {
-		this.symbol = symbol;
-	}
-
 	public void setPrice(double price) {
 		this.price = price;
+	}
+	
+	public void setSymbol(String symbol) {
+		System.out.println("Hello");
+		this.symbol = symbol;
 	}
 
 	public void setChange(double change) {
