@@ -8,6 +8,7 @@ public class StockPrice implements Serializable {
 	//Fields for StockPrices
 	private static final long serialVersionUID = 1L;
 	private String symbol;
+	private String LOL;
 	private double price;
 	private double change;
 	private double newField;
